@@ -6,7 +6,7 @@
 
   & > * {
     margin-inline: auto;
-    max-inline-size: 500px;
+    max-inline-size: var(--max-inline-size, 500px);
   }
 
   @include mq(medium) {
